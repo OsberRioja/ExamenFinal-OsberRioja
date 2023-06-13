@@ -1,5 +1,10 @@
 function ContarPalabras(texto) {
-  return 0;
+  if(texto==""){
+    return 0;
+  }
+  else{
+    return 1;
+  }
 }
 
 export default ContarPalabras;
