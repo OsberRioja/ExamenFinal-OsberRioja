@@ -1,9 +1,17 @@
-function ContarPalabras(texto) {
+function ContarPalabras(texto,palabra) {
+  let contador=0;
   if(texto==""){
-    return 0;
+    return contador;
   }
   else{
-    return 1;
+    let palabras=texto.split(" ");
+    for(var i=0;i<palabras.length;i++)
+    {
+      if(palabras[i]==palabra){
+        contador+=1;
+      }
+    }
+    return contador;
   }
 }
 
