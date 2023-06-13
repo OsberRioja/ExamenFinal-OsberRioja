@@ -1,6 +1,7 @@
 #### Para instalar las dependencias:
 
 npm install
+primer commit
 
 #### Comandos de uso:
 
