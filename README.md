@@ -2,6 +2,7 @@
 
 npm install
 primer commit
+prueba
 
 #### Comandos de uso:
 
